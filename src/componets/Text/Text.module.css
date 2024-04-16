@@ -1,0 +1,57 @@
+.tag {
+  color: black;
+  display: flex;
+  margin-left: -10%;
+  font-size: 70px;
+  margin-bottom: 10px;
+  animation: RightToLeft 2s ease-in-out forwards;
+  
+}
+
+@keyframes leftToRight {
+  from {
+    transform: translateX(-100%)
+  }
+  to {
+    transform: translateX(0%)
+  }
+}
+
+@keyframes RightToLeft {
+  from {
+    transform: translateX(100%)
+  }
+  to {
+    transform: translateX(0%)
+  }
+}
+
+.tag2 {
+  color: black;
+  display: flex;
+  margin-left: 2%;
+  font-size: 70px;
+  margin-bottom: 10px;
+  animation: 'test';
+  animation: leftToRight 2s ease-in-out forwards;
+  
+}
+.tag3{
+  color: rgb(37, 150, 156);
+  display: flex;
+  margin-right: 2%;
+  margin-left: 2%;
+  font-size: 70px;
+  
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+
+  margin: 60px 0px;
+}
+
+.container {
+  width: 1040px;
+}

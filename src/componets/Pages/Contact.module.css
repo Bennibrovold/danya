@@ -1,0 +1,46 @@
+.text{
+    color: #151515;
+    font-size: 60px;
+
+    font-weight: bold;
+}
+
+.text2{
+    color: #151515;
+    font-size: 40px;
+    margin-top: 120px;
+    font-weight: bold;
+    margin-bottom: 100px;
+}  
+.blockText{
+
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.blockText:hover{
+    color: blueviolet; 
+    cursor: pointer;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+}
+.poloska{
+    height: 4px;
+    margin-bottom: 16px;
+    background: gray;
+    width: 100%;
+}
+.blockInfo {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}

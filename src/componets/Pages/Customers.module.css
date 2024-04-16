@@ -1,0 +1,81 @@
+.text{
+    color: #151515;
+    font-size: 60px;
+    margin-bottom: 80px;
+    font-weight: bold;
+}
+.poloska{
+    height: 4px;
+    margin-bottom: 36px;
+    background: gray;
+    width: 100%;
+}
+.text2{
+    color: #151515;
+    font-size: 20px;
+    margin-bottom: 80px;
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 60px;
+    grid-row-gap: 20px;
+}
+
+.circle{
+    border-radius: 30px;
+    background-color: blueviolet;
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    line-height: 120%;
+
+    min-width: 48px;
+    min-height: 48px;
+    max-height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 16px;
+
+    font-family: 'Courier New', Courier, monospace;
+}
+.steps {
+    display: flex;
+
+}
+.text3{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    color: #151515;
+    font-size: 20px;
+    margin-bottom: 80px;
+    font-weight: bold;
+    gap: 20px;
+    grid-column-gap: 120px;
+}
+.colortext{
+    color: blueviolet;
+    font-size: 25px;
+}
+.colortext2{
+    text-decoration: underline;
+    
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.content div:first-child {
+    font-size: 20px;
+}
+
+.content div:last-child {
+    font-size: 16px;
+    font-weight: 400;
+}

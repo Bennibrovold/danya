@@ -1,0 +1,195 @@
+
+.chelka {
+  top: 0px;
+  height: 120px;
+  font-size: 14px;
+  margin-bottom: 20px;
+
+  position: fixed;
+  width: 100%;
+  background: #fff;
+  padding: 15px 0;
+  z-index: 100;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15);
+  
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.logo {
+  color: rgb(3, 3, 3);
+  border: 0;
+  background: none;
+  
+  font-family: Impact;
+  height: auto;
+  width: 300px;
+  font-size: 50px;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  
+}
+
+.buuttoncolor {
+  color: #0b0c0c;
+  display: block;
+  text-decoration: none;
+
+  line-height: 16px;
+  float: left;
+  font-size: larger;
+ 
+  
+  cursor: pointer;
+  font-size: 30px;
+  background: none;
+  border: 0;
+  font-family: Arial;
+  font-weight: bold;
+  display: flex;
+  padding: 50px 20px;
+  right: 1000px;
+}
+.buuttoncolor:hover{
+  color: rgb(37, 150, 156);
+}
+
+@media screen and (max-width: 1200px) {
+  .chelka {
+    
+  }
+
+  .buuttoncolor  {
+    font-size: 22px;
+  }
+}
+
+
+.menu {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.logo_a {
+  color: #0b0c0c;
+  text-decoration: none;
+}
+
+
+
+/* Стили главного текста
+*/
+
+.tag {
+  color: black;
+  display: flex;
+  margin-top: 200px;
+  margin-left: -10%;
+  font-size: 70px;
+  margin-bottom: 10px;
+  animation: RightToLeft 2s ease-in-out forwards;
+  
+}
+
+@keyframes leftToRight {
+  from {
+    transform: translateX(-100%)
+  }
+  to {
+    transform: translateX(0%)
+  }
+}
+
+@keyframes RightToLeft {
+  from {
+    transform: translateX(100%)
+  }
+  to {
+    transform: translateX(0%)
+  }
+}
+
+.tag2 {
+  color: black;
+  display: flex;
+  margin-left: 2%;
+  font-size: 70px;
+  margin-bottom: 10px;
+  animation: 'test';
+  animation: leftToRight 2s ease-in-out forwards;
+  
+}
+.tag3{
+  color: rgb(37, 150, 156);
+  display: flex;
+  margin-right: 2%;
+  margin-left: 2%;
+  font-size: 70px;
+  
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 1040px;
+}
+
+/* Стили слайдера
+*/
+
+.contener {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Стили текста
+*/
+
+.text{
+  font-family: Arial;
+  color: black;
+  margin-left: 90px;
+  font-weight: bold;
+  line-height: 10;
+  font-size: 50px;
+  display: flex;
+  
+}
+.text2{
+  font-family: Arial;
+  color: black;
+  margin-left: 600px;
+  font-weight: bold;
+  line-height: 10;
+  font-size: 50px;
+  display: flex;
+  
+}
+
+.page {
+  margin-top: 166px;
+  overflow: hidden;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.page {
+  max-width: 1440px;
+  width: 100%;
+}
